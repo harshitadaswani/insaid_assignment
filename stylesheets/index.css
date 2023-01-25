@@ -5,12 +5,16 @@
   background-color: var(--primary-color);
 }
 
+.contact-banner {
+  padding-top: var(--m-size);
+}
+
 .hover:hover {
-  color: var(--primary-color);
+  color: var(--accent-color1);
 }
 
 .img-container {
-  max-width: var(--xxl-size);
+  max-width: 5rem;
 }
 
 .content-container {
@@ -23,11 +27,12 @@
 
 .service {
   border: 0.1rem solid var(--accent-color1);
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20rem;
 }
 
 .service:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .sticky-header {

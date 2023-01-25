@@ -165,6 +165,10 @@ h6 {
   color: var(--accent-color2);
 }
 
+.accent-color3 {
+  color: var(--accent-color3);
+}
+
 .white-color {
   color: var(--white-color);
 }
@@ -188,6 +192,10 @@ h6 {
 
 .accent-bg2 {
   background-color: var(--accent-color2);
+}
+
+.accent-bg3 {
+  background-color: var(--accent-color3);
 }
 
 .white-bg {
