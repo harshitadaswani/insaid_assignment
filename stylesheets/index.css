@@ -1,0 +1,20 @@
+@import url(base.css);
+
+.logo {
+  font-family: var(--logo-font);
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+.hover:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 500px) {
+  .gap-xxl {
+    gap: var(--xs-size);
+  }
+}
