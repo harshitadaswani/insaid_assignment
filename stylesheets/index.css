@@ -5,10 +5,6 @@
   background-color: var(--primary-color);
 }
 
-.contact-banner {
-  padding-top: var(--m-size);
-}
-
 .hover:hover {
   color: var(--accent-color1);
 }
@@ -21,8 +17,20 @@
   max-width: 20rem;
 }
 
+.hero-content {
+  width: 40rem;
+}
+
+.hero-img {
+  width: 30rem;
+}
+
 .logo {
   font-family: var(--logo-font);
+}
+
+.padding-top {
+  padding-top: var(--xxl-size);
 }
 
 .service {
