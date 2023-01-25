@@ -29,6 +29,10 @@
   font-family: var(--logo-font);
 }
 
+.padding-bottom {
+  padding-bottom: var(--xxl-size);
+}
+
 .padding-top {
   padding-top: var(--xxl-size);
 }
