@@ -1,0 +1,64 @@
+@import url(base.css);
+
+.btn-hover:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.hover:hover {
+  color: var(--accent-color1);
+}
+
+.img-container {
+  max-width: 5rem;
+}
+
+.content-container {
+  max-width: 20rem;
+}
+
+.hero-content {
+  width: 40rem;
+}
+
+.hero-img {
+  width: 30rem;
+}
+
+.logo {
+  font-family: var(--logo-font);
+}
+
+.padding-bottom {
+  padding-bottom: var(--xxl-size);
+}
+
+.padding-top {
+  padding-top: var(--xxl-size);
+}
+
+.service {
+  border: 0.1rem solid var(--accent-color1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20rem;
+}
+
+.service:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+}
+
+/* .sticky-footer {
+  position: sticky;
+  bottom: 0;
+} */
+
+@media only screen and (max-width: 500px) {
+  .gap-xxl {
+    gap: var(--xs-size);
+  }
+}
