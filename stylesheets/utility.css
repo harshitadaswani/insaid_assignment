@@ -82,6 +82,9 @@ h6 {
   margin: auto;
 }
 
+.m-0 {
+  margin: 0;
+}
 /* for padding */
 .p-xxl {
   padding: var(--xxl-size);
@@ -290,8 +293,6 @@ h6 {
 
 .btn,
 .outline {
-  padding: var(--s-size);
-  margin: var(--xs-size);
   border-radius: 0.5rem;
   font-size: var(--s-size);
 }

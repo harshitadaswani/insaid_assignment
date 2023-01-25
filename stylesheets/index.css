@@ -13,6 +13,16 @@
   color: var(--primary-color);
 }
 
+.btn-hover:hover {
+  color: var(--secondary-color);
+  background-color: var(--accent-color1);
+}
+
+.sticky-footer {
+  position: sticky;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 500px) {
   .gap-xxl {
     gap: var(--xs-size);
