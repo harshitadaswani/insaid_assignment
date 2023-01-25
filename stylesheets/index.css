@@ -1,7 +1,33 @@
 @import url(base.css);
 
+.btn-hover:hover {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.hover:hover {
+  color: var(--primary-color);
+}
+
+.img-container {
+  max-width: var(--xxl-size);
+}
+
+.content-container {
+  max-width: 20rem;
+}
+
 .logo {
   font-family: var(--logo-font);
+}
+
+.service {
+  border: 0.1rem solid var(--accent-color1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.service:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .sticky-header {
@@ -9,19 +35,10 @@
   top: 0;
 }
 
-.hover:hover {
-  color: var(--primary-color);
-}
-
-.btn-hover:hover {
-  color: var(--secondary-color);
-  background-color: var(--accent-color1);
-}
-
-.sticky-footer {
+/* .sticky-footer {
   position: sticky;
   bottom: 0;
-}
+} */
 
 @media only screen and (max-width: 500px) {
   .gap-xxl {
