@@ -244,8 +244,20 @@ h6 {
   justify-content: space-evenly;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
 .nowrap {
   flex-wrap: nowrap;
+}
+
+.flex-justify-center {
+  justify-content: center;
 }
 
 .flex-align-center {
@@ -393,5 +405,11 @@ h6 {
 
   .gap-xxl {
     gap: var(--xl-size);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gap-xxl {
+    gap: var(--xs-size);
   }
 }

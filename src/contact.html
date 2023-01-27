@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7fa15c8e24.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header
+      class="accent-bg3 primary-color flex flex-row p-s gap-xxl flex-space-around sticky-header"
+    >
+      <nav class="flex flex-row flex-center p-xs m-xs gap-xxl">
+        <div class="hover"><a href="../index.html">Business</a></div>
+        <div class="hover"><a href="../index.html">Services</a></div>
+      </nav>
+      <div class="p-xs m-xs logo hover fw-black txt-l">ABC</div>
+      <button class="p-xs m-xs btn btn-hover accent-bg1 border-none">
+        Contact Us
+      </button>
+    </header>
+    <section class="accent-bg1 p-s">
+      <h2 class="txt-center secondary-color p-xs m-xs">Contact Us</h2>
+      <p class="txt-center p-xs m-xs">
+        Any questions or remarks? Just write us.
+      </p>
+      <div class="flex flex-row flex-center p-xs m-xs">
+        <div class="flex flex-column flex-center hover-tab p-s br-s txt-cursor">
+          <i class="fas fa-phone-alt txt-m"></i>
+          <p class="p-xs">Vadodara, Gujarat, India</p>
+        </div>
+        <div class="flex flex-column flex-center hover-tab p-s br-s txt-cursor">
+          <i class="fas fa-location-arrow txt-m"></i>
+          <p class="p-xs">+91987654321</p>
+        </div>
+        <div class="flex flex-column flex-center hover-tab p-s br-s txt-cursor">
+          <i class="fas fa-envelope txt-m"></i>
+          <p class="p-xs">xyz@abc.com</p>
+        </div>
+      </div>
+      <form class="flex flex-column flex-align-center p-s">
+        <h3 class="p-xs m-xs txt-center">Contact Form</h3>
+        <div class="flex flex-row flex-start p-xs m-xs">
+          <div>
+            <label for="name" class="m-xs">Name:</label>
+            <div class="border br-s p-xs m-xs flex flex-align-center white-bg">
+              <i class="fas fa-font"></i>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="outline-transparent border-none br-s txt-s p-0"
+              />
+            </div>
+            <label for="mail" class="m-xs">Mail:</label>
+            <div class="border br-s p-xs m-xs flex flex-align-center white-bg">
+              <i class="fas fa-envelope"></i>
+              <input
+                type="text"
+                name="mail"
+                id="mail"
+                class="outline-transparent border-none br-s txt-s p-0"
+              />
+            </div>
+            <label for="phone" class="m-xs">Phone Number:</label>
+            <div class="border br-s p-xs m-xs flex flex-align-center white-bg">
+              <i class="fas fa-mobile-alt"></i>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                class="outline-transparent border-none br-s txt-s p-0"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="message" class="m-xs">Message:</label>
+            <div class="br-s flex flex-center m-xs">
+              <textarea
+                name="message"
+                id="message"
+                cols="25"
+                rows="8.9"
+                class="outline-transparent border-none br-s p-xs txt-s"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="p-xs m-xs">
+          <label for="services" class="m-xs">Services</label>
+          <div class="flex flex-row">
+            <div class="txt-cursor chips primary-bg br-s p-xs m-xs">
+              Web <br />
+              Development
+            </div>
+            <div class="txt-cursor chips primary-bg br-s p-xs m-xs">
+              Content <br />
+              Writing
+            </div>
+            <div class="txt-cursor chips primary-bg br-s p-xs m-xs">
+              Graphic <br />
+              Designing
+            </div>
+            <div class="txt-cursor chips primary-bg br-s p-xs m-xs">
+              Digital <br />
+              Marketing
+            </div>
+            <div class="txt-cursor chips primary-bg br-s p-xs m-xs">Other</div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="accent-bg3 primary-color sticky-footer">
+      <div class="p-s txt-m flex flex-row flex-center gap-xxl">
+        <i class="fab fa-github hover txt-cursor primary-color"></i>
+        <i class="fab fa-linkedin-in txt-cursor hover primary-color"></i>
+        <i class="fab fa-twitter hover txt-cursor primary-color"></i>
+      </div>
+      <div class="p-xs txt-s primary-color accent-bg3 txt-center">
+        Copyright © ABC | Designed by
+        <span class="txt-underline hover">Harshita Daswani</span>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
