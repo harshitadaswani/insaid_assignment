@@ -1,10 +1,15 @@
+.border {
+  border: 0.1rem solid var(--primary-color);
+}
+
+.chips:hover {
+  background-color: var(--accent-color3);
+  color: var(--secondary-color);
+}
+
 .hover-tab:hover {
   background-color: var(--accent-color3);
   color: var(--accent-color1);
-}
-
-.border {
-  border: 0.1rem solid var(--primary-color);
 }
 
 .p-0 {
@@ -15,7 +20,12 @@ textarea {
   resize: none;
 }
 
-.chips:hover {
-  background-color: var(--accent-color2);
-  color: var(--secondary-color);
+.form-width {
+  width: max-content;
+}
+
+@media only screen and (max-width: 650px) {
+  .form-width {
+    width: auto;
+  }
 }
